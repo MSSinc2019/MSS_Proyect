@@ -1,0 +1,79 @@
+@font-face{
+    font-family:'authentic';
+    src: url(authentic/Universal.ttf)
+}
+#cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: darkred;
+    font-family: authentic;
+    color: white;
+    font-size:80px;
+    
+}
+#menu{
+    margin-top: -16px;
+    margin-left: -50px;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+}
+#logo{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    background: darkred;
+    padding: 20px 25px;
+    display: block;
+}
+.nav li :hover{
+    color: darkred;
+    background-color: white;
+}
+#cuerpo{
+    margin-left: 185px;
+    height: auto;
+    
+}
+table{
+    border: 1px solid black;
+    
+}
+.tabla{
+    
+    width: 200px;
+    height: 100px;
+}
+.letrapeque{
+    font-size: 9px;
+}
+.letragrande{
+    font-weight: bold;
+}
+.div1{
+
+    float: left;  
+    margin-right: 50px;
+}
+.div2{
+
+    float: left;
+    
+}
+.div3{
+    margin-right: 5px;
+    float: left;  
+    padding: 0px;
+}
+.div4{
+    
+    float: left;  
+}
+.rojo{
+    color:red;
+}

@@ -1,0 +1,96 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#mssimg{
+    height: 65px;
+    width:125px;
+    margin-top: 0px;
+    
+}
+ul{
+    list-style: none;
+}
+.titulo{
+    color: black;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.nav{
+    list-style: none;
+    /*position: fixed;*/
+}
+.nav li a{
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    
+}
+.nav > li{  
+    float:left;
+}
+.nav li :hover{
+    color: white;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.instalaciones{
+    margin-top: 50px;
+    height:600px;
+    border: 1px solid black;
+    
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#sub{
+    background-color: #dea53c;
+    height: auto;
+    border:1px solid none;
+    padding: 20px;
+    text-align: center;
+}
+#imgsub{
+    height: 60px;
+    width: 90px;
+}
+#subindice{
+    color: white;
+    margin-left: 450px;
+    
+}
+#linea{
+    border:1px solid white;
+}
+.sub2{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#cabecilla{
+    height: 65px;
+    background-color: goldenrod;
+}
+.equipo{
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

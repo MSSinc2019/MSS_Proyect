@@ -1,0 +1,158 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#mssimg{
+    height: 65px;
+    width:125px;
+    margin-top: 0px;
+    
+}
+ul{
+    list-style: none;
+}
+.titulo{
+    color: black;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.nav{
+    list-style: none;
+    /*position: fixed;*/
+}
+.nav li a{
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    
+}
+.nav > li{  
+    float:left;
+}
+.nav li :hover{
+    color: white;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.cuerpo{
+    margin-top: 50px;
+    height:600px;
+    border: 1px solid black;
+}
+#sub{
+    background-color: #dea53c;
+    height: auto;
+    border:1px solid none;
+    padding: 20px;
+    text-align: center;
+}
+#imgsub{
+    height: 60px;
+    width: 90px;
+}
+#subindice{
+    color: white;
+    margin-left: 450px;
+    
+}
+#linea{
+    border:1px solid white;
+}
+.sub2{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#cabecilla{
+    height: 65px;
+    background-color: goldenrod;
+}
+.test1{
+    border: 1px solid none;
+    width: 400px;
+    height: 200px;
+    float:left;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.test2{
+    border: 1px solid none;
+    width: 400px;
+    float:left;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.person1{
+    border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../paco.jpg);
+    float:left;
+}
+.person2{
+    border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../Ana.jpg);
+    float:left;
+}
+.person3{
+      border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../Gema.jpg);
+    float:left;
+}
+.test3{
+    border: 1px solid none;
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 110px;
+    margin-top: 70px;
+}
+.test4{
+     border: 1px solid none;
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.person4{
+       border:1px solid black;
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(../Leo.jpg);
+    float:left;
+}
+p{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+
